@@ -82,10 +82,10 @@ header .d-flex .ul .dropdown-center ul li a {
 
 .btn-primary {
   padding: 2px;
-  border: 2px solid #000;
+  border: none;
   transition: all 0.3s;
   display: none;
-  background-color: #000;
+  background-color: transparent;
   border-radius: 8px;
 }
 
@@ -100,10 +100,9 @@ header .d-flex .ul .dropdown-center ul li a {
 
 .btn-primary:hover {
   background-color: transparent;
-  border-color: #000;
 }
 
-.btn-primary:hover svg path {
+.btn-primary svg path {
   fill: #000;
 }
 
